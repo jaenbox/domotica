@@ -115,12 +115,12 @@
 <?php
 // Funciones PHP del pin GPIO 17
  if ($_POST[encender17]) { 
- $a- exec("sudo sh /var/www/rele/gpio/17/enciende.sh");
+ $a- exec("sudo sh /var/www/html/domotica/gpio/enciende.sh");
  echo $a;
  }
 
  if ($_POST[apagar17]) { 
- $a- exec("sudo sh /var/www/rele/gpio/17/apaga.sh");
+ $a- exec("sudo sh /var/www/html/domotica/gpio/apaga.sh");
  echo $a;
  }
 // Fin de las funciónes del pin GPIO 17
